@@ -782,9 +782,14 @@ body {
 }
 @media (min-width: 768px) {
   .tile {
-    flex-direction: row;
     text-align: left;
+  }
+}
+@media (min-width: 980px) {
+  .tile {
+    flex-direction: row;
     margin: 30px 0;
+    gap: 30px;
   }
 }
 .tile:first-child {
@@ -815,6 +820,7 @@ body {
 @media (min-width: 768px) {
   .tile p {
     font-size: 18px;
+    margin: initial;
   }
 }
 .tile:hover {
